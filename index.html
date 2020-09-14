@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Halloween</title>
+  <style media="screen">
+    body{
+      font-size: 24px;
+    }
+    h2{
+      color: orange
+    }
+    #red{
+      color: red;
+    }
+    .orange{
+      color: orange
+    }
+  </style>
+</head>
+<body>
+  <h1 style="color: orange; font-weight: bold">Halloween</h1>
+  <h3>Who doesn't love Michael Myers?</h3>
+  <img style="width: 250px" src="images/michael-myers-resized.jpg" alt="Michael Myers">
+<h2>Halloween Series</h2>
+<table style="width:60%; border: thin solid;">
+  <tr align="left">
+    <th>Name</th>
+    <th>Directed by</th>
+    <th>Year</th>
+  </tr>
+  <tr>
+    <td>Halloween</td>
+    <td>John Carpenter</td>
+    <td>1978</td>
+  </tr>
+  <tr>
+    <td>Halloween II</td>
+    <td>Rick Rosenthal</td>
+    <td>1981</td>
+  </tr>
+  <tr>
+    <td>Halloween III: Season of the Witch</td>
+    <td>Tommy Lee Wallace</td>
+    <td>1982</td>
+  </tr>
+  <tr>
+    <td>Halloween 4: The Return of Michael Myers</td>
+    <td>Dwight H. Little</td>
+    <td>1988</td>
+  </tr>
+  <tr>
+    <td>Halloween 5: The Revenge of Michael Myers</td>
+    <td>Dominique Othenin-Giracel</td>
+    <td>1989</td>
+  </tr>
+</table>
+<h2>Box office Revune in the United States</h2>
+<ul>
+  <li>Halloween- $47 million</li>
+  <li>Halloween II- $25.5 million</li>
+  <li>Halloween III: Season of the Witch- $14.4 million</li>
+  <li>Halloween 4: The Return of Michael Myers- $17.8 million</li>
+  <li>Halloween 5: The Revenge of Michael Myers- $11.6 million</li>
+</ul>
+<img src="images/halloween-resized.jpg" alt="Halloween Poster">
+<p>Here is more <a id="red" href="newpage.html"></a> to watch.</p>
+<p>For more information press on the link <a class="orange" href="https://en.wikipedia.org/wiki/Halloween_(franchise)">Halloween</a>
+</p>
+</body>
+<script>
+  document.getElementById("red").innerHTML = "scary movies";
+
+</script>
+</html>
